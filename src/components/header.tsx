@@ -3,7 +3,7 @@ import { MapPin, ShoppingCart } from 'lucide-react';
 
 export function Header() {
   return (
-    <header className='flex items-center justify-between p-3 md:p-8'>
+    <header className='flex items-center justify-between '>
       <img src={logo} alt="logo coffee delivery" />
 
 

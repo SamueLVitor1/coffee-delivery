@@ -2,11 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      baloo2: ["Baloo 2", "sans-serif"],
+      dmSerif: ["DM Serif Text", 'serif'],
+    },
     extend: {
       colors: {
-        "white": "#FFF",
+        white: "#FFF",
 
-        "background": "#FAFAFA",
+        background: "#FAFAFA",
 
         "base-title": "#272221",
         "base-subtitle": "#403937",
@@ -17,11 +21,11 @@ export default {
         "base-input": "#EDEDED",
         "base-card": "#F3F2F2",
 
-        "yellow": "#DBAC2C",
+        yellow: "#DBAC2C",
         "yellow-dark": "#C47F17",
         "yellow-light": "#F1E9C9",
 
-        "purple": "#8047F8",
+        purple: "#8047F8",
         "purple-dark": "#4B2995",
         "purple-light": "#EBE5F9",
       },

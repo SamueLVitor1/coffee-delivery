@@ -1,5 +1,10 @@
+import { IntroSection } from "../components/intro-section";
+
 export function Home() {
   return (
-    <h1>Home</h1>
+    <main className="mt-9 md:mt-24">
+      <IntroSection />
+      home
+    </main>
   )
 }
